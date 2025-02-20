@@ -12,7 +12,7 @@ export default function HeroImage({text}: DisplayProp) {
             <Navbar />
             <div className={"flex items-center justify-center grow"}>
                 <h1
-                    className={" bg-clip-text bg-cover bg-center bg-no-repeat text-transparent text-[20vw] text-center inline-block"}
+                    className={" bg-clip-text bg-cover bg-center bg-no-repeat text-transparent text-[20vw] text-center inline-block font-montserrat"}
                     style={{ backgroundImage: "url('/img/test.jpg')" }}>
                     {text}
                 </h1>

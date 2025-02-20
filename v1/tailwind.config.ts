@@ -14,6 +14,9 @@ export default {
         customBlue: "#030020",
         text: "#FFFFFF",
       },
+      fontFamily: {
+        montserrat: ['var(--montserrat)'],
+      },
     },
   },
   plugins: [],
