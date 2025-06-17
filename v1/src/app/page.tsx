@@ -29,8 +29,7 @@ export default function Home() {
                   </div>
               </div>
                 <div className={"text-wrap wrap w-[40vw] text-[2vw] pb-[3vw]"}>
-                    Je m'appelle Julien Becheras,
-                    étudiant en première année de Bachelor Universitaire de Technologie (BUT) en informatique à Grenoble. À l'âge de 20 ans, je suis un véritable passionné par le monde de l'informatique, du sport et de tous domaines touchant au spatial. Mon portfolio est le reflet de mon engagement dans ces domaines, où je cherche à combiner créativité, détermination et curiosité pour repousser les frontières de mes connaissances. Je suis impatient de relever de nouveaux défis, d'apprendre continuellement et de contribuer activement à l'évolution de la technologie.
+                    {"Je m'appelle Julien Becheras, étudiant en première année de Bachelor Universitaire de Technologie (BUT) en informatique à Grenoble. À l'âge de 20 ans, je suis un véritable passionné par le monde de l'informatique, du sport et de tous domaines touchant au spatial. Mon portfolio est le reflet de mon engagement dans ces domaines, où je cherche à combiner créativité, détermination et curiosité pour repousser les frontières de mes connaissances. Je suis impatient de relever de nouveaux défis, d'apprendre continuellement et de contribuer activement à l'évolution de la technologie."}
                 </div>
           </div>
           <div className={"h-[30vw] w-full relative mt-[-5vw]"}>
