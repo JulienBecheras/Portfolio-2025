@@ -1,5 +1,4 @@
 import HeroImage from "@/app/components/heroImage";
-import DividerMountain from "@/app/components/divider";
 
 export default function Stepbystep(){
     return (
