@@ -1,12 +1,9 @@
-"use client"
-
 import HeroImage from "@/app/components/heroImage";
 
-export default function APropos(){
+export default function Titanic(){
     return (
         <div>
-            <HeroImage text={"À Propos"}/>
-
+            <HeroImage text={"Titanic"} categorie={"Projets"}/>
         </div>
     )
 }

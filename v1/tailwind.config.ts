@@ -12,6 +12,8 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         customBlue: "#030020",
+        customBeige: "#F7F1ED",
+        customPink: "#FEBEB0",
         text: "#FFFFFF",
       },
       fontFamily: {

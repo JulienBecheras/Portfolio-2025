@@ -1,12 +1,9 @@
-"use client"
-
 import HeroImage from "@/app/components/heroImage";
 
-export default function APropos(){
+export default function Picsou(){
     return (
         <div>
-            <HeroImage text={"À Propos"}/>
-
+            <HeroImage text={"Picsou"} categorie={"Projets"}/>
         </div>
     )
 }
