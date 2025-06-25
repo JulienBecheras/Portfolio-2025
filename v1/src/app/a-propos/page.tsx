@@ -117,7 +117,7 @@ export default function APropos(){
                     </div>
                 </div>
                 <div className={"flex mt-48 items-center justify-center gap-4"}>
-                    <h2 className={"text-3xl"}>Pour plus d'information :</h2>
+                    <h2 className={"text-3xl"}>{"Pour plus d'information :"}</h2>
                     <a className={`bg-gray-400 rounded-2xl flex items-center justify-center cursor-pointer transition duration-200 ease-in-out ${hover ? "scale-105" : "scale-100"}`}
                        onMouseEnter={() => setHover(true)}
                        onMouseLeave={() => setHover(false)}
