@@ -97,6 +97,7 @@ export default function APropos(){
             <DividerMountain rotation={-180}/>
             <div className={"bg-customBlue flex flex-col justify-center items-center py-32 mt-[-5px]"}>
                 <div className="relative border-l-8 border-white pb-8 ml-8 pl-32 space-y-8 bg-customBlue">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                         src="/forme/fleche.svg"
                         alt="flèche décorative"
@@ -123,6 +124,7 @@ export default function APropos(){
                        onMouseLeave={() => setHover(false)}
                        href={"/cv_master.pdf"}>
                         <h4 className={"text-3xl font-black m-3"}>mon CV</h4>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                             src="/forme/livre.svg"
                             alt="mon cv"
