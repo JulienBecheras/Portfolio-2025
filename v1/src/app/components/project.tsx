@@ -18,19 +18,19 @@ export default function Project({ nom, srcImage, resume, film = false , url}: Di
     return (
         <div
             className={`relative w-[30vw] h-[20vw] group overflow-hiddenn 
-                ${ film ? "outline outline-customBlue outline-[1vw]" : ""}`}
+                ${ film ? "outline outline-customBlue outline-[1vw]" : ""} ${film ? "m-0" : "my-5"}`}
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
         >
             <Link href={`/projets/${url.toLowerCase().replace(/\s+/g, "-")}`}>
-                <div className="relative w-full h-full">
+                <div className={`relative w-full h-full `}>
                     {/* Image avec overlay sombre au survol */}
                     <Image
                         src={`/img/${srcImage}`}
                         alt={nom}
                         width={300}
                         height={200}
-                        className="w-full h-full object-cover transition duration-300 group-hover:brightness-50"
+                        className={`w-full h-full object-cover transition duration-300 group-hover:brightness-50 ${film ? "rounded-none" : "rounded-3xl"}`}
                     />
                     <h3 className={` absolute inset-0 flex items-start justify-center text-white text-[2vw] transition-all duration-500 bg-black bg-opacity-40
                         ${ hover ? "items-start pt-4" : "items-center"}`}

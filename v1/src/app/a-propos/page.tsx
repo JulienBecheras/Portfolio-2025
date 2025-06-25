@@ -5,6 +5,7 @@ import Competence from "@/app/components/competence";
 import DividerMountain from "@/app/components/divider";
 import Image from "next/image";
 import { useState } from "react";
+import Footer from "@/app/components/footer";
 
 export default function APropos(){
     const [hover, setHover] = useState(false);
@@ -95,7 +96,8 @@ export default function APropos(){
                 <Competence nom={"SQL"} srcImage={"sql.svg"}/>
             </div>
             <DividerMountain rotation={-180}/>
-            <div className={"bg-customBlue flex flex-col justify-center items-center py-32 mt-[-5px]"}>
+            <div className={"bg-customBlue flex flex-col justify-center items-center py-20 mt-[-5px]"}>
+                <h2 className={"text-5xl font-black pb-12"}>Mon parcours</h2>
                 <div className="relative border-l-8 border-white pb-8 ml-8 pl-32 space-y-8 bg-customBlue">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
@@ -133,7 +135,7 @@ export default function APropos(){
                     </a>
                 </div>
             </div>
-
+            <Footer/>
         </div>
 )
 }

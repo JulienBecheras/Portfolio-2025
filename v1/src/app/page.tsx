@@ -3,12 +3,94 @@ import HeroImage from "./components/heroImage";
 import DividerMountain from "./components/divider";
 import Link from "next/link";
 import Project from "@/app/components/project";
+import Footer from "@/app/components/footer";
+import Competence from "@/app/components/competence";
 export default function Home() {
   return (
       <div className={"flex flex-col overflow-hidden"}>
         <HeroImage text={"Julien"}/>
-        <div className={"h-full w-full bg-white"}>test</div>
-        <DividerMountain rotation={-180}/>
+          <div>
+              <h1 className={"text-black font-black text-3xl mb-5 ml-10"}>Language de programmation </h1>
+          </div>
+          <div className={"flex flex-wrap justify-center gap-4 m-10"}>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+          </div>
+          <div>
+              <h1 className={"text-black font-black text-3xl mb-5 ml-10"}>Outils </h1>
+          </div>
+          <div className={"flex flex-wrap justify-center gap-4 m-10"}>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+          </div>
+
+          <div>
+              <h1 className={"text-black font-black text-3xl mb-5 ml-10"}>Compétence transversales </h1>
+          </div>
+          <div className={"flex flex-wrap justify-center gap-4 m-10 mb-32"}>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+              <Competence nom={"SQL"} srcImage={"sql.svg"}/>
+          </div>        <DividerMountain rotation={-180}/>
           <div className={"flex flex-row justify-center bg-customBlue pt-[10vh] pb-0 border-2 border-customBlue border-solid mt-[-5px]"}>
               <div className={"flex flex-col justify-center items-center w-[20vw]"}>
                   <div className={"h-[10%] w-[30%] relative m-0 p-0"}>
@@ -176,7 +258,7 @@ export default function Home() {
                 <h3 className={"text-[2vw] ml-[2vw]"}>En apprendre plus</h3>
             </Link>
           </div>
-          <DividerMountain/>
+          <Footer/>
       </div>
   );
 }
