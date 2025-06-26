@@ -14,7 +14,7 @@ export default function APropos(){
         <div>
             <HeroImage text={"À Propos"}/>
             <div>
-                <h1 className={"text-black font-black text-3xl mb-5 ml-10"}>Language de programmation </h1>
+                <h1 className={"text-black font-black text-3xl mb-5 ml-10"}>Languages de programmation </h1>
             </div>
             <div className={"flex flex-wrap justify-center gap-4 m-10"}>
                 <Competence nom={"Python"} srcImage={"python.svg"}/>
@@ -60,7 +60,7 @@ export default function APropos(){
             </div>
 
             <div>
-                <h1 className={"text-black font-black text-3xl mb-5 ml-10"}>Compétence transversales </h1>
+                <h1 className={"text-black font-black text-3xl mb-5 ml-10"}>Compétences transversales </h1>
             </div>
             <div className={"flex flex-wrap justify-center gap-4 m-10 mb-32"}>
                 <Competence nom={"Rigoureux"} srcImage={"work.svg"}/>
@@ -137,7 +137,7 @@ export default function APropos(){
                     </div>
                 </div>
                 <div className={"flex mt-48 items-center justify-center gap-4"}>
-                    <h2 className={"text-3xl"}>{"Pour plus d'information :"}</h2>
+                    <h2 className={"text-3xl"}>{"Pour plus d'informations :"}</h2>
                     <a className={`bg-gray-400 rounded-2xl flex items-center justify-center cursor-pointer transition duration-200 ease-in-out ${hover ? "scale-105" : "scale-100"}`}
                        onMouseEnter={() => setHover(true)}
                        onMouseLeave={() => setHover(false)}

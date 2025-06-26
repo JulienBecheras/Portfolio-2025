@@ -136,7 +136,7 @@ export default function Passions(){
             <DividerMountain/>
             <div>
                 <h1 className={"text-black font-black text-4xl ml-10"}>Les nouvelles technologies</h1>
-                <p className={"text-xl font-semibold text-black m-10 mx-20"}>{"Passionné par les nouvelles technologies j'aime exploré et découvrir des toutes types de nouveauté allant du gadget peu utile à des projets qui révolutionneront notre manière de vivre. Afin d'assouvir cette curiosité pour les nouvelles technologies je m'informe et me divertie nottament avec un media dédié à la tech qui se nomme Underscore"}</p>
+                <p className={"text-xl font-semibold text-black m-10 mx-20"}>{"Passionné par les nouvelles technologies, j'aime explorer et découvrir toutes sortes de nouveautés, allant du gadget peu utile à des projets qui révolutionneront notre manière de vivre. Afin d'assouvir cette curiosité pour les nouvelles technologies, je m'informe et me divertis notamment avec un média dédié à la tech qui se nomme Underscore."}</p>
                 <div className={"flex justify-center items-center m-16"}>
                     <Image src={"/img/tokamac.jpeg"} alt={"Photo Basket"} width={300} height={300} className={"rounded-3xl"}/>
                     <div className={"flex flex-col justify-center w-[60%] ml-16"}>

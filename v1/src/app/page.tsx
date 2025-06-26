@@ -10,7 +10,7 @@ export default function Home() {
       <div className={"flex flex-col overflow-hidden"}>
         <HeroImage text={"Julien"}/>
           <div>
-              <h1 className={"text-black font-black text-3xl mb-5 ml-10"}>Language de programmation </h1>
+              <h1 className={"text-black font-black text-3xl mb-5 ml-10"}>Languages de programmation </h1>
           </div>
           <div className={"flex flex-wrap justify-center gap-4 m-10"}>
               <Competence nom={"Python"} srcImage={"python.svg"}/>
@@ -56,7 +56,7 @@ export default function Home() {
           </div>
 
           <div>
-              <h1 className={"text-black font-black text-3xl mb-5 ml-10"}>Compétence transversales </h1>
+              <h1 className={"text-black font-black text-3xl mb-5 ml-10"}>Compétences transversales </h1>
           </div>
           <div className={"flex flex-wrap justify-center gap-4 m-10 mb-32"}>
               <Competence nom={"Rigoureux"} srcImage={"work.svg"}/>
@@ -88,7 +88,7 @@ export default function Home() {
                   </div>
               </div>
                 <div className={"text-wrap wrap w-[40vw] text-[2vw] pb-[3vw]"}>
-                    {"Je m'appelle Julien Becheras, étudiant en première année de Bachelor Universitaire de Technologie (BUT) en informatique à Grenoble. À l'âge de 20 ans, je suis un véritable passionné par le monde de l'informatique, du sport et de tous domaines touchant au spatial. Mon portfolio est le reflet de mon engagement dans ces domaines, où je cherche à combiner créativité, détermination et curiosité pour repousser les frontières de mes connaissances. Je suis impatient de relever de nouveaux défis, d'apprendre continuellement et de contribuer activement à l'évolution de la technologie."}
+                    {"Je m'appelle Julien Becheras, étudiant en troisième année de Bachelor Universitaire de Technologie (BUT) en informatique à Grenoble. À l'âge de 22 ans, je suis un véritable passionné par le monde de l'informatique, du sport et de tous domaines touchant au spatial. Mon portfolio est le reflet de mon engagement dans ces domaines, où je cherche à combiner créativité, détermination et curiosité pour repousser les frontières de mes connaissances. Je suis impatient de relever de nouveaux défis, d'apprendre continuellement et de contribuer activement à l'évolution de la technologie."}
                 </div>
           </div>
           <div className={"h-[30vw] w-full relative mt-[-5vw]"}>
@@ -167,7 +167,7 @@ export default function Home() {
           <div className={"w-full h-[20vw] flex justify-center bg-black outline outline-[1vw] outline-black"}>
               <Project nom={"Terraforma"} srcImage={"terra.jpg"} resume={"Par équipe de 7, nous avons réaliser un serious game afin d'ameliorer le niveau de classes de 3ème en SVT"} film={true}/>
               <Project nom={"Picsou"} srcImage={"picsou.svg"} resume={"Projet stage en duo visant à la réalisation d'une application de gestion de dépenses au sein d'un groupe"} film={true}/>
-              <Project nom={"Canada"} srcImage={"canada.jpg"} resume={"Ceci est le résumé de cette image"} film={true}/>
+              <Project nom={"Canada"} srcImage={"canada.jpg"} resume={"Durant un an j'ai pu partir à la découverte du Quebèc grace à un échange universitaire en BUT3 au sein de l'UQAC menant à une double diplomation"} film={true}/>
           </div>
           <div className={"w-full h-[3.5vw] relative shadow-2xl mb-[2vw]"}>
               <Image
