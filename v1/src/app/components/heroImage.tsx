@@ -11,7 +11,7 @@ type DisplayProp = {
 
 const images = [
     "/img/ISS.jpg",
-    "/img/test.jpg",
+    "/img/canada.jpg",
     "/img/test2.png",
     "/img/titanic.jpg",
 ];
