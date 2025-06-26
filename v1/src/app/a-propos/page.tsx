@@ -84,14 +84,14 @@ export default function APropos(){
                     <div className="relative py-6">
                         <div className="absolute -left-[156px] top-6 w-12 h-12 rounded-full bg-white border-4 border-customBlue" />
                         <div>
-                            <h3 className={"text-2xl font-black"}>{"2006 - 2013 / Talencieux 07340"}</h3>
+                            <h3 className={"text-2xl font-black"}>{"2006 - 2014 / Talencieux 07340"}</h3>
                             <p className="text-white text-2xl">{"Ecole privée Saint Joseph"}</p>
                         </div>
                     </div>
                     <div className="relative py-6">
                         <div className="absolute -left-[156px] top-6 w-12 h-12 rounded-full bg-white border-4 border-customBlue" />
                         <div>
-                            <h3 className={"text-2xl font-black"}>{"2013 - 2017 / Annonay 07300 / Brevet des collège mention \"Très bien\""}</h3>
+                            <h3 className={"text-2xl font-black"}>{"2014 - 2018 / Annonay 07300 / Brevet des collège mention \"Très bien\""}</h3>
                             <p className="text-white text-2xl">{"Collège Notre-Dame"}</p>
                         </div>
                         <Image className="absolute -left-[224px] top-6" src={"/forme/etoile.svg"} alt={"etoile"} width={52} height={12} />
@@ -100,21 +100,21 @@ export default function APropos(){
                         <div className="absolute -left-[156px] top-6 w-12 h-12 rounded-full bg-white border-4 border-customBlue" />
                         <Image className="absolute -left-[224px] top-6" src={"/forme/etoile.svg"} alt={"etoile"} width={52} height={12} />
                         <div>
-                            <h3 className={"text-2xl font-black"}>{"2017 - 2020 / Annonay 07300 / Baccalauréat Physique - Math | mention \"Bien\""}</h3>
+                            <h3 className={"text-2xl font-black"}>{"2018 - 2021 / Annonay 07300 / Baccalauréat Physique - Math | mention \"Bien\""}</h3>
                             <p className="text-white text-2xl">{"Lycée Saint-Denis"}</p>
                         </div>
                     </div>
                     <div className="relative py-6">
                         <div className="absolute -left-[156px] top-6 w-12 h-12 rounded-full bg-white border-4 border-customBlue" />
                         <div>
-                            <h3 className={"text-2xl font-black"}>{"2020 - 2021 / Valence 26000"}</h3>
+                            <h3 className={"text-2xl font-black"}>{"2021 - 2022 / Valence 26000"}</h3>
                             <p className="text-white text-2xl">{"Classe préparatoire aux Grandes Ecoles Math - Physique - Sience de l'Ingénieur (MPSI) | Camille Vernet"}</p>
                         </div>
                     </div>
                     <div className="relative py-6">
                         <div className="absolute -left-[156px] top-6 w-12 h-12 rounded-full bg-white border-4 border-customBlue" />
                         <div>
-                            <h3 className={"text-2xl font-black"}>{"2021 - 2022 / Grenoble 38000"}</h3>
+                            <h3 className={"text-2xl font-black"}>{"2022 - 2023 / Grenoble 38000"}</h3>
                             <p className="text-white text-2xl">{"1ère année - Bachelor Universitaire de Technologie (BUT) Informatique - IUT2 Université Grenoble Alpes (UGA)"}</p>
                         </div>
                     </div>
