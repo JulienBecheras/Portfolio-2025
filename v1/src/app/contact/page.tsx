@@ -1,7 +1,6 @@
 "use client"
 
 import HeroImage from "@/app/components/heroImage";
-import {Input} from "postcss";
 import Image from "next/image";
 import Footer from "@/app/components/footer";
 
