@@ -10,10 +10,13 @@ type DisplayProp = {
 }
 
 const images = [
-    "/img/ISS.jpg",
-    "/img/canada.jpg",
-    "/img/test2.png",
-    "/img/titanic.jpg",
+    "/img/mer.jpg",
+    "/img/foret.jpg",
+    "/img/automne.jpg",
+    "/img/lac.jpg",
+    "/img/foret_enneigee.jpg",
+    "/img/lac_enneigee.jpg",
+    "/img/pasteque.jpg",
 ];
 
 export default function HeroImage({text, categorie}: DisplayProp) {
