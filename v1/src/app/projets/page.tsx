@@ -3,8 +3,6 @@
 import HeroImage from "@/app/components/heroImage";
 import Project from "@/app/components/project";
 import DividerMountain from "@/app/components/divider";
-import Link from "next/link";
-import Image from "next/image";
 import Footer from "@/app/components/footer";
 
 export default function Projets(){
