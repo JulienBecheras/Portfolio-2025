@@ -190,7 +190,7 @@ export default function Home() {
           <div className={"w-full h-[20vw] flex justify-center bg-black outline outline-[1vw] outline-black"}>
               <Project nom={"Terraforma"} srcImage={"terra.jpg"} resume={"Par équipe de 7, nous avons réaliser un serious game afin d'ameliorer le niveau de classes de 3ème en SVT"} film={true}/>
               <Project nom={"Picsou"} srcImage={"ISS.jpg"} resume={"Projet stage en duo visant à la réalisation d'une application de gestion de dépenses au sein d'un groupe"} film={true}/>
-              <Project nom={"test"} srcImage={"ISS.jpg"} resume={"Ceci est le résumé de cette image"} film={true}/>
+              <Project nom={"Canada"} srcImage={"ISS.jpg"} resume={"Ceci est le résumé de cette image"} film={true}/>
           </div>
           <div className={"w-full h-[3.5vw] relative shadow-2xl mb-[2vw]"}>
               <Image
